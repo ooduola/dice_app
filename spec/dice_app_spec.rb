@@ -6,6 +6,10 @@ describe Dice do
     expect(subject).to respond_to(:roll).with(1).argument
   end
 
+  it 'responds to record' do
+    expect(subject).to respond_to(:record)
+  end
+
   context '#roll' do
     it 'returns a value between 1 and 6' do
       expect(subject.roll(1)).to be <= 6
