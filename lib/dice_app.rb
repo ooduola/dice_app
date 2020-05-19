@@ -1,11 +1,17 @@
+
+
 class Dice
 
-  def record
+  attr_reader :record
+
+  def initialize
     @record = []
   end
 
   def roll(number_of_dice)
-    rand(1..6)
+    dice_roll = rand(1..6)
+    @record << dice_roll
+    dice_roll
   end
 
 end

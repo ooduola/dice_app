@@ -14,6 +14,13 @@ There are good reasons to write tests, but why write tests first?
 In teams, describe or diagram the process of TDD.
 Your diagram might include: User story, Writing a test, Green, Red, Refactor, Write code, Feature test
 
+
+```
+User Story ---> Feature Test ---> Write Test ---> RED ---> Write code ---> GREEN --> Feature Test ---> Refactor
+
+```
+
+
 ## Apply the process
 
 Setup a `dice_app` folder with rspec:
@@ -145,9 +152,10 @@ dice <--- record ----> previous_rolls
  - Wrote unit test for record method. **Test failed**
  - Defined record method. **test passed**
  - Feature test 1st dice roll to be returned using record. **Nil value returned**
- - Unit test record method to return previous rolls. 
+ - Unit test record method to return previous rolls. **Test failed**
+ - Wrote code to store roll return in record. **Test passed**
 
-
+---
 ## Resources
 
 :pill: [Behaviour Driven Development with RSpec](https://github.com/makersacademy/course/blob/master/pills/rspec.md)
