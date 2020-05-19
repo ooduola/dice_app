@@ -1,7 +1,7 @@
 class Dice
 
   def record
-
+    @record = []
   end
 
   def roll(number_of_dice)
