@@ -110,13 +110,13 @@ dice <---- roll ----> rand(1..6)
 ```
 > **Roll dice should return random number between 1 and 6**
  - [x] Feature test: Dice objected being rolled. 
-   - **Returned nil value**
+   - *Returned nil value*
  - [x] Write test: Expect dice to return rand(1..6). 
-   - **Test failed**
+   - *Test failed*
  - [x] Write code: Defined return value for dice to equal random number between 1 and 6. 
-   - **Test passed**
+   - *Test passed*
  - [x] Feature test: 
-   - *Feature complete*
+   - **Feature complete**
 ---
 
 ## User Story 4
