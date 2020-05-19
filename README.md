@@ -80,17 +80,17 @@ dice <---- roll ----> nil
 > **Dice object should repsond to roll**
 
  - [x] Feature test: Dice object rolling a dice.      
-   - **uninitialized constant Dice**
+   - *uninitialized constant Dice*
  - [x] Write test: Desribing Dice constant. 
-    - **Test failed.**
+    - *Test failed.*
  - [x] Write code: Defined Dice class in dice_app.rb. 
-    - **Test passed.**
+    - *Test passed.*
  - [x] Feature test: Dice object rolling a dice. 
-   - **undefined method `roll'**
+   - *undefined method `roll'*
  - [x] Write test: roll method responding to Dice object. 
-    - **Test failed**
+    - *Test failed*
  - [x] Write code: Defined roll method in Dice class. 
-   - **Test passed**
+   - *Test passed*
  - [x] Feature tested: 
    - **Feature complete**
 
@@ -116,7 +116,7 @@ dice <---- roll ----> rand(1..6)
  - [x] Write code: Defined return value for dice to equal random number between 1 and 6. 
    - **Test passed**
  - [x] Feature test: 
-   - **Feature complete**
+   - *Feature complete*
 ---
 
 ## User Story 4
@@ -133,11 +133,11 @@ dice <--- roll(number_of_dice) ----> rand(1..6)
 
 > **number of dice for each roll should be set in argument**
  - [x] Feature test: Dice roll with argument. 
-   - **wrong number of arguments (given 1, expected 0)**
+   - *wrong number of arguments (given 1, expected 0)*
  - [x] Write test: Rewrote test for roll method to accept 1 argument. 
-   - **Test failed**
+   - *Test failed*
  - [x] Write code: Redefined roll method to accept one argument. 
-   - **Test passed**
+   - *Test passed*
  - [x] Feature test:
    - **Feature passed**
 
@@ -155,17 +155,17 @@ dice <--- record ----> previous_rolls
 ```
 > **Return method called on dice will return previous rolls**
  - [x] Feature test: Record on dice method. 
-   - **undefined method `record'**
+   - *undefined method `record'*
  - [x] Write test: record method to respond to dice.
-   - **Test failed**
+   - *Test failed*
  - [x] Write code: defined record method. 
-   - **Test passed**
+   - *Test passed*
  - [x] Feature test: record after dice roll. 
-   - **Nil value returned**
+   - *Nil value returned*
  - [x] Write test: record method to store return of each roll. 
-   - **Test failed**
+   - *Test failed*
  - [x] Write code: to store roll return in record instant variable. 
-   - **Test passed**
+   - *Test passed*
  - [x] Feature test record after dice roll. 
    - **Feature test passed.**
 
@@ -181,15 +181,21 @@ I want to be able to get my current score
 ```
 dice <---- current_score ----> value
 ```
-**User can get the total of current score when required**
+> **User can get the total of current score when required**
 
- - [x] Feature test: call method current score on dice after roll. **undefined method `current_score'**
- - [x] Unit test: Tested for Dice to respond to current_score. **Test failed**
- - [x] Write code: Defined current_score method. **Test passed**
+ - [x] Feature test: call method current score on dice after roll. 
+   - *undefined method `current_score'*
+ - [x] Unit test: Tested for Dice to respond to current_score. 
+   - *Test failed*
+ - [x] Write code: Defined current_score method. 
+   - *Test passed*
  - [x] Feature test: call method returns nil after dice roll. 
- - [x] Unit test: Tested for current_score to return recorded total. **Test failed**
- - [x] Wrote code: Defined returned value to equal sum of record. **Test passed**
- - [x] Feature test: Feature test passed. All user stories requirements satisfied. 
+ - [x] Unit test: Tested for current_score to return recorded total. 
+   - *Test failed*
+ - [x] Wrote code: Defined returned value to equal sum of record. 
+   - *Test passed*
+ - [x] Feature test: 
+   - **Feature test passed. All user stories requirements satisfied.**
 ---
 
 ## Resources
