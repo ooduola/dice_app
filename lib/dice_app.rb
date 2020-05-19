@@ -9,9 +9,10 @@ class Dice
   end
 
   def roll(number_of_dice)
-    dice_roll = rand(1..6)
-    @record << dice_roll
-    dice_roll
+    number_of_dice.times { @record << rand(1..6)}
   end
 
+  def current_score
+    @record.sum
+  end
 end
